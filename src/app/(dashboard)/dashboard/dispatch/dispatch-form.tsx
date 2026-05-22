@@ -213,7 +213,6 @@ export function DispatchForm({
                       mode="single"
                       selected={date}
                       onSelect={(d) => d && setDate(d)}
-                      initialFocus
                       locale={tr}
                     />
                   </PopoverContent>

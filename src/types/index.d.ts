@@ -30,6 +30,8 @@ export interface Production {
   quantity: number;
   created_by: string;
   created_at: string;
+  products?: { sku: string; name: string };
+  machines?: { name: string };
 }
 
 export interface Dispatch {
@@ -39,6 +41,8 @@ export interface Dispatch {
   quantity: number;
   created_by: string;
   created_at: string;
+  products?: { sku: string; name: string };
+  customers?: { name: string; phone: string };
 }
 
 export interface Customer {

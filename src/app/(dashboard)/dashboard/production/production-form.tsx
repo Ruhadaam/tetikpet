@@ -209,7 +209,6 @@ export function ProductionForm({
                       mode="single"
                       selected={date}
                       onSelect={(d) => d && setDate(d)}
-                      initialFocus
                       locale={tr}
                     />
                   </PopoverContent>
